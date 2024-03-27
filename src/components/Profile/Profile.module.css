@@ -1,0 +1,71 @@
+.profileCard {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.profileInfo {
+  margin-bottom: 20px;
+}
+.profileAvatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(51, 51, 51);
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.profileName {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.profileTag {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(92, 90, 90);
+  text-align: center;
+}
+.profileLocation {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(92, 90, 90);
+  text-align: center;
+}
+
+.profileStats {
+  display: flex;
+  align-items: center;
+}
+.profileStatsItem {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(196, 196, 196);
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+.profileStatsItem:not(:last-child) {
+  border-right: 1px solid gray;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.quantity {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
